@@ -25,3 +25,18 @@ python apidetector.py -i list_subdomains.txt -o results_file.txt -t 30 -ua "Mozi
   ``` bash
   python apidetector.py -m -d example.com
   ```
+---------------------------------------------------------------------------------
+### Tip
+- if these endpoints are found
+``` bash
+/swagger
+/api/docs
+/openapi.json
+/openapi.yaml
+/v2/api-docs
+```
+- run
+  ``` bash
+  ?format=html
+  ?deep=true
+  ```
